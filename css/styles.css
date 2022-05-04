@@ -1,0 +1,162 @@
+/*додатковий колір тексту  #212121*/
+/* основний колір тексту #757575*/
+/* белий #ffffff*/
+/*акцент колльром #2196F3*/
+/* footer amail  color: rgba(255, 255, 255, 0.6);*/
+
+
+
+/*header*/
+body{
+    color: #757575;
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+} 
+.paig-header {
+    background-color: #ffffff;
+}
+.logo {
+    color: inherit;
+    color: #2196F3;
+
+    
+    text-decoration: none;
+    
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo:focus,
+.logo:hover{
+    text-decoration:#2196F3;
+}
+.span {
+    color: #212121;
+}
+ul{
+    list-style: none;
+}
+.site-nav .link{
+color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:#2196f3;
+    text-decoration:#2196F3;
+
+}
+.auth-nav .link{
+    color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: #2196f3;
+    text-decoration:#2196F3;
+
+}
+.site-nav .link.current{
+    color: #2196F3;
+}
+.paig-header .link{
+    text-decoration: none;}
+/*hero*/
+
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase
+}
+.button{
+    font-family: inherit;
+    color: #ffffff;
+    background-color: #2196F3;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    text-align: center;
+}
+
+/*main*/ 
+
+.background{
+    background-color: #F5F4FA;
+}
+.title {
+    color: #212121;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase
+}
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.name{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.subtitle{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+}
+/*footer*/
+
+footer{ 
+background-color:  #2F303A;
+}
+.span-footer{
+    color: #ffffff;
+}
+.address{
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 500;
+}
+.address:hover,
+address .address:focus{
+    text-decoration:#2196F3;
+}
+footer .auth-nav .link{
+    text-decoration: none;
+    color: #ffffff60;
+}                       
+
+/* Portfolio*/
+.navigation{
+    font-family: inherit;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+.navigation:hover,
+.navigation:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+.job .title{
+font-size: 18px;
+line-height: 2;
+}
