@@ -1,18 +1,18 @@
-/*додатковий колір тексту  #212121*/
-/* основний колір тексту #757575*/
-/* белий #ffffff*/
-/*акцент колльром #2196F3*/
-/* footer amail  color: rgba(255, 255, 255, 0.6);*/
-
-
-
-/*header*/
 :root{
     --one-text-color: #757575;
     --two-text-color:#212121; 
     --accent-color:#2196F3;
     --two-accent-color:#ffffff;
 }
+
+
+/*header*/
+/*.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid rgb(185, 126, 15);
+}*/
 
 body{
     color: var(--one-text-color);
@@ -25,7 +25,7 @@ body{
 .paig-header {
     background-color: var(--two-accent-color);
 }
-.logo {
+.logo { 
     color: inherit;
     color: var(--accent-color);
 
@@ -42,7 +42,7 @@ body{
     text-decoration:var(--accent-color);
 }
 .span {
-    color: var(two-text-color);
+    color: var(--two-text-color);
 }
 ul{
     list-style: none;
@@ -84,6 +84,7 @@ color: var(--two-text-color);
     text-transform: uppercase
 }
 .button{
+    padding: 10px 32px;
     font-family: inherit;
     color: var(--two-accent-color);
     background-color: var(--accent-color);
@@ -150,6 +151,8 @@ footer .auth-nav .link{
 
 /* Portfolio*/
 .navigation{
+    padding: 8px 22px;
+    border: none;
     font-family: inherit;
     color: var(--two-text-color);
     background-color: #F5F4FA;
