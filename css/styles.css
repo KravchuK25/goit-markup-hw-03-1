@@ -22,6 +22,16 @@ body{
     font-size: 14px;
     line-height: 1.14;
 } 
+.container{
+    outline: 2px solid red;
+
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    nav-right: auto;
+    nav-left: auto;
+}
 .paig-header {
     background-color: var(--two-accent-color);
 }
@@ -47,8 +57,17 @@ body{
 ul{
     list-style: none;
 }
+.site-nav{
+    display: flex;
+    
+}
 .site-nav .link{
-color: var(--two-text-color);
+    margin-right: 50px;
+    
+    color: var(--two-text-color);
+}
+.site-nav .link:last-child{
+    margin-right: 0;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -56,8 +75,15 @@ color: var(--two-text-color);
     text-decoration:var(--accent-color);
 
 }
+.auth-nav{
+    display: flex;
+}
 .auth-nav .link{
+    margin-right: 50px;
     color: var(--one-text-color);
+}
+.auth-nav .link:last-child{
+    margin-right: 0;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus{
