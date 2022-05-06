@@ -22,7 +22,7 @@ body{
     margin: 0;
     list-style: none;
 }
-.container{
+.body{
     outline: 2px solid red;
 
     width: 1200px;
@@ -32,7 +32,7 @@ body{
     nav-right: auto;
     nav-left: auto;
 }
-.paig-header {
+.paig-header{
     display: flex;
     align-items: center;
   
@@ -85,7 +85,7 @@ ul{
     text-decoration:var(--accent-color);
 }
 .item{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 .item:last-child{
     margin-right: 0;
@@ -137,6 +137,7 @@ ul{
 .button{
   
     margin-bottom: 200px;
+    margin-left: 500px;
 
     padding: 10px 32px;
     font-family: inherit;
@@ -152,7 +153,7 @@ ul{
 .advances-item{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15px;
+    padding: 0;
     
 }
 .advances-item .item{
@@ -256,6 +257,16 @@ address .address:focus{
 
 }
 /* Portfolio*/
+.jumper{
+    display: flex;
+    justify-content: center;
+}
+.jumper .item{
+    margin-right: 8px;
+}
+.jumper .item:last-child{
+    margin-right: 0;
+}
 .navigation{
     padding: 8px 22px;
     border: none;
@@ -267,6 +278,7 @@ address .address:focus{
     line-height: 1.63;
     text-align: center;
 }
+
 .navigation:hover,
 .navigation:focus {
     color: var(--two-accent-color);
@@ -275,4 +287,15 @@ address .address:focus{
 .job .title{
 font-size: 18px;
 line-height: 2;
+}
+.job{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.job .text{
+    text-align: left;
+}
+.job .item:nth-of-type(3n){
+    margin-right: 0;
 }
