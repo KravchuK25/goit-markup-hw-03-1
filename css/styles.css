@@ -36,13 +36,13 @@
 .paig-header{
     display: flex;
     align-items: center;
+    padding: 0;
   
     background-color: var(--two-accent-color);
 }
 .paig-header .link{
     text-decoration: none;}
 .logo { 
-    margin-right: 95px;
     color: inherit;
     color: var(--accent-color);
 
@@ -53,6 +53,11 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+}
+.paig-header .logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 95px;
 }
 .logo:focus,
 .logo:hover{
@@ -66,6 +71,8 @@ ul{
 }
 .site-nav{
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 
     padding-left: 0;
 }
@@ -86,13 +93,15 @@ ul{
 .item{
     margin-right: 30px;
 }
+
 .item:last-child{
     margin-right: 0;
 }
 .auth-nav{
     display: flex;
     margin-left: auto;
-    
+    margin-top: 0;
+    margin-bottom: 0;
    
 }
 .auth-nav .link{
@@ -151,6 +160,12 @@ ul{
 }
 
 /* advances*/
+.advances{
+    
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -168,6 +183,8 @@ ul{
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     
 }
 .advances-item .item{
@@ -178,9 +195,6 @@ ul{
     margin-right: 0;
 }
 
-.advances-container {
-    padding: 94px 0;
-}
 .background{
     background-color: #F5F4FA;
 }
@@ -190,20 +204,22 @@ ul{
     line-height: 1.14;
     text-transform: uppercase
 }
+.item .title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
 .text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.7;
 }
+.item .text{
+    margin-top: 0;
+    margin-bottom: 0;
+} 
 
-.name{
-    color: var(--two-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-   
-}
+
 
 .subtitle{
     
@@ -215,7 +231,10 @@ ul{
 }
 
 /*job*/
-.job .subtitle{
+.job-container {
+    padding-bottom: 94px;
+}
+.job-container .subtitle{
     margin-top: 0;
     margin-bottom: 50px;
 }
@@ -223,25 +242,33 @@ ul{
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
 .image .item{
-    
     margin-right: 30px;
+    
 }
 .image .item:last-child{
 margin-right: 0;
 }
 /*team*/
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team .subtitle{
-    margin-top: 94px;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
 .staff {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 .staff .item{
@@ -251,10 +278,25 @@ margin-right: 0;
 .staff .item:last-child{
     margin-right: 0;
 }
+
+.name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--two-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.staff .text{
+    margin-bottom: 30px;
+}
+
 /*footer*/
 
 footer{ 
-background-color:  #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #2F303A;
 }
 .span-footer{
     color: var(--two-accent-color);
@@ -279,15 +321,40 @@ address .address:focus{
 .contacts .link:focus{
     color: var(--accent-color);
     text-decoration:var(--accent-color);
-
 }
+.contacts{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer .logo{
+    display: block;
+    padding-bottom: 20px;
+}
+.footer .address{
+    margin-bottom: 9px;
+}
+.footer .link{
+    margin-bottom: 9px;
+}
+
 /* Portfolio*/
+
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .jumper{
     display: flex;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+
 }
 .jumper .item{
     margin-right: 8px;
+    
 }
 .jumper .item:last-child{
     margin-right: 0;
@@ -310,17 +377,24 @@ address .address:focus{
     background-color: var(--accent-color);
 }
 .job .title{
-font-size: 18px;
+font-size: 16px;
 line-height: 2;
+margin-bottom: 4px;
 }
 .job{
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .job .text{
     text-align: left;
 }
 .job .item:nth-of-type(3n){
     margin-right: 0;
+}
+.job-text{
+    padding: 20px 24px;
+
 }
