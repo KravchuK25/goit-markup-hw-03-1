@@ -5,7 +5,6 @@
     --two-accent-color:#ffffff;
 }
 
-
 /*header*/
 
 
@@ -120,12 +119,14 @@ ul{
     /*hero*/
 
 .hero{
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;
 }
 .hero-title{
-    padding: 200px 235px 30px;
-    margin: 0;
+    width: 696px;
+    margin: 0 auto;
+    letter-spacing: 0.06em;
 
     color: var(--two-accent-color);
     font-weight: 900;
@@ -135,8 +136,7 @@ ul{
     text-transform: uppercase
 }
 .button{
-  display: block;
-    margin-bottom: 200px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 
@@ -151,6 +151,19 @@ ul{
 }
 
 /* advances*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .advances-item{
     display: flex;
     flex-wrap: wrap;
