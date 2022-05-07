@@ -181,14 +181,14 @@ ul{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
 }
+
 .name{
     color: var(--two-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
+   
 }
 
 .subtitle{
@@ -221,7 +221,7 @@ margin-right: 0;
 }
 .staff .item{
     margin-right: 30px;
-   
+    text-align: center;
 }
 .staff .item:last-child{
     margin-right: 0;
