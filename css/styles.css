@@ -9,7 +9,8 @@
 /*header*/
 
 
-body{
+.body{
+    
     color: var(--one-text-color);
     
     font-family: Roboto, sans-serif;
@@ -17,12 +18,13 @@ body{
     font-size: 14px;
     line-height: 1.14;
 } 
-.list{
+.list {
     padding: 0;
     margin: 0;
     list-style: none;
+
 }
-.body{
+.container{
     outline: 2px solid red;
 
     width: 1200px;
@@ -36,8 +38,6 @@ body{
     display: flex;
     align-items: center;
   
-    
-
     background-color: var(--two-accent-color);
 }
 .paig-header .link{
