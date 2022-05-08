@@ -33,9 +33,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-.paig-header{
+.header-container{
     display: flex;
     align-items: center;
+}
+.paig-header{
+   
     padding: 0;
   
     background-color: var(--two-accent-color);
