@@ -346,7 +346,7 @@ address .address:focus{
     margin-bottom: 9px;
     
 }
-.footer .item:last-child{
+.footer .item:nth-last-child(-n + 1){
     margin-bottom: 0;
     
 }
