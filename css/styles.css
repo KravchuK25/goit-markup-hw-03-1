@@ -342,15 +342,10 @@ address .address:focus{
     display: block;
     margin-bottom: 20px;
 }
-.footer .item{
+.footer .item:not(:last-child){
     margin-bottom: 9px;
-    
+   
 }
-.footer .item:nth-last-child(-n + 1){
-    margin-bottom: 0;
-    
-}
-
 
 /* Portfolio*/
 
@@ -419,4 +414,5 @@ margin-bottom: 4px;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
+   
 }
