@@ -135,6 +135,12 @@ ul{
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #2F303A;
+    background-image: url(../hero/hero.jpg.jpg);
+    background-image: linear-gradient(to right #2F303A);
+    background-repeat: no-repeat;
+    background-position: center;
+
+     
 }
 .hero-title{
     width: 696px;
